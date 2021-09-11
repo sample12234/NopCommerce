@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 99.693 s <<< FAILURE! - in testRunner.TestRunner
+Add a new Customer(Customers)  Time elapsed: 34.958 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Add a new customer] / nopCommerce admin...> but was:<[Customers] / nopCommerce admin...>
+
+Search customers by EmailID(Customers)  Time elapsed: 30.647 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+
+Search customers by Name(Customers)  Time elapsed: 33.437 s  <<< FAILURE!
+java.lang.AssertionError: expected:<true> but was:<false>
+
